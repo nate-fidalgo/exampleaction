@@ -1,0 +1,14 @@
+    name: 'My Useless Action'
+    description: 'A simple action to test the marketplace use'
+    author: 'not need right now'
+    inputs:
+      input_value:
+        description: 'An input value'
+        required: true
+    outputs:
+      output_value:
+        description: 'An output value'
+        value: ${{ inputs.input_value }}
+    runs:
+      using: 'node16'
+      main: 'index.js'
