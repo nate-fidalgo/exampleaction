@@ -6,4 +6,5 @@ const myModule = require('./morecode');
 const result = myModule.printmore(3);
 console.log(result); 
 console.log(myModule.myVariable); // Output: 10
+console.log(process.env);
 
